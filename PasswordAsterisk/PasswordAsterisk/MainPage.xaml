@@ -5,6 +5,8 @@
              xmlns:controls="clr-namespace:PasswordAsterisk.Controls"
              x:Class="PasswordAsterisk.MainPage">
 
-    <controls:PasswordBox Text="test"/>
+    <StackLayout>
+        <controls:PasswordBox Placeholder="Password"/>
+    </StackLayout>
 
 </ContentPage>

@@ -43,8 +43,6 @@ namespace PasswordAsterisk.Droid.Renderers
 
     internal class PasswordCharSequence : Java.Lang.Object, Java.Lang.ICharSequence
     {
-        private char DOT = '\u2022';
-
         private Java.Lang.ICharSequence _source;
         public PasswordCharSequence(Java.Lang.ICharSequence source)
         {
